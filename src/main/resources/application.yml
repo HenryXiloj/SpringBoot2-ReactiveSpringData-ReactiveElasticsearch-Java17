@@ -1,0 +1,13 @@
+server:
+  port: 9000
+  servlet:
+    context-path: /
+spring:
+  data:
+    elasticsearch:
+      client:
+        reactive:
+          endpoints: localhost:9200
+  elasticsearch:
+    rest:
+      uris: http://localhost:9200
